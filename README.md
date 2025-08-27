@@ -26,11 +26,11 @@ O jogador pode escolher uma classe (Guerreiro ou Mago) e batalhar contra um inim
 ┃ ┣ 📜 Personagem.java # Classe abstrata com atributos e métodos base <br>
 ┃ ┣ 📜 Guerreiro.java # Classe específica para Guerreiros <br>
 ┃ ┣ 📜 Mago.java # Classe específica para Magos <br>
-┃ ┣ 📜 Barbaro.java # Classe específica para Bárbaros
-┃ ┣ 📜 Feiticeiro.java # Classe específica para Feiticeiros
-┃ ┣ 📜 Monge.java # Classe específica para Monges
-┃ ┣ 📜 Paladino.java # Classe específica para Paladinos
-┃ ┗ 📜 Patrulheiro.java # Classe específica para Patrulheiros
+┃ ┣ 📜 Barbaro.java # Classe específica para Bárbaros <br>
+┃ ┣ 📜 Feiticeiro.java # Classe específica para Feiticeiros <br>
+┃ ┣ 📜 Monge.java # Classe específica para Monges <br>
+┃ ┣ 📜 Paladino.java # Classe específica para Paladinos <br>
+┃ ┗ 📜 Patrulheiro.java # Classe específica para Patrulheiros <br>
 
 
 | Classe      | HP | Mana | Força | Inteligência | Defesa | Dano Base | Poções de Vida | Estilo                                       |
