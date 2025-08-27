@@ -25,13 +25,29 @@ O jogador pode escolher uma classe (Guerreiro ou Mago) e batalhar contra um inim
 ┣ 📂 model <br>
 ┃ ┣ 📜 Personagem.java # Classe abstrata com atributos e métodos base <br>
 ┃ ┣ 📜 Guerreiro.java # Classe específica para Guerreiros <br>
-┃ ┗ 📜 Mago.java # Classe específica para Magos <br>
+┃ ┣ 📜 Mago.java # Classe específica para Magos <br>
+┃ ┣ 📜 Barbaro.java # Classe específica para Bárbaros
+┃ ┣ 📜 Feiticeiro.java # Classe específica para Feiticeiros
+┃ ┣ 📜 Monge.java # Classe específica para Monges
+┃ ┣ 📜 Paladino.java # Classe específica para Paladinos
+┃ ┗ 📜 Patrulheiro.java # Classe específica para Patrulheiros
+
+
+| Classe      | HP | Mana | Força | Inteligência | Defesa | Dano Base | Poções de Vida | Estilo                                       |
+| ----------- | -- | ---- | ----- | ------------ | ------ | --------- | -------------- | -------------------------------------------- |
+| Guerreiro   | 50 | 10   | 7     | 2            | 4      | 5         | 3              | Corpo a corpo resistente, dano físico        |
+| Mago        | 35 | 30   | 2     | 7            | 2      | 4         | 3              | Ataques mágicos poderosos, frágil            |
+| Bárbaro     | 60 | 10   | 8     | 2            | 4      | 6         | 1              | Dano bruto, pouca magia, resistente          |
+| Feiticeiro  | 35 | 40   | 2     | 8            | 2      | 4         | 2              | Magias poderosas, frágil fisicamente         |
+| Monge       | 40 | 20   | 7     | 4            | 3      | 5         | 1              | Corpo a corpo ágil, ataques especiais        |
+| Paladino    | 55 | 25   | 6     | 4            | 5      | 5         | 2              | Defesa sólida, suporte com cura              |
+| Patrulheiro | 45 | 15   | 5     | 3            | 3      | 6         | 3              | Ataques rápidos e consistentes, baixa defesa |
 
 🎯 Próximas Melhorias
 
  Sistema de inventário
 
- Novas classes D&D-Like (Patrulheiro, Paladino, etc.)
+ Criacao de Personagem Proprio
 
  Sistema de alocação de pontos em atributos
 
