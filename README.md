@@ -19,13 +19,13 @@ O jogador pode escolher uma classe (Guerreiro ou Mago) e batalhar contra um inim
 ---
 
 ## 🏗️ Estrutura do Projeto  
-📂 src
-┣ 📂 main
-┃ ┗ 📜 Main.java # Classe principal (fluxo do jogo)
-┣ 📂 model
-┃ ┣ 📜 Personagem.java # Classe abstrata com atributos e métodos base
-┃ ┣ 📜 Guerreiro.java # Classe específica para Guerreiros
-┃ ┗ 📜 Mago.java # Classe específica para Magos
+📂 src <br>
+┣ 📂 main <br>
+┃ ┗ 📜 Main.java # Classe principal (fluxo do jogo) <br>
+┣ 📂 model <br>
+┃ ┣ 📜 Personagem.java # Classe abstrata com atributos e métodos base <br>
+┃ ┣ 📜 Guerreiro.java # Classe específica para Guerreiros <br>
+┃ ┗ 📜 Mago.java # Classe específica para Magos <br>
 
 🎯 Próximas Melhorias
 
