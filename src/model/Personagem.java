@@ -81,6 +81,20 @@ public abstract class Personagem{
     }
   }
 
+  public boolean estaVivo(){
+    return hp > 0;
+  }
+
+  public String getNome(){
+    return nome;
+  }
+  public int getHp(){
+    return hp;
+  }
+  public int getMana(){
+    return mana;
+  }
+
 }
 
 
