@@ -10,10 +10,11 @@ public abstract class Personagem{
   private int inte;
   private int defesa;
   private int danoBase;
+  private int pocaoDeVida;
 
   private Random random = new Random();
 
-  public Personagem(String nome, int hp, int mana, int forca, int inte, int defesa, int danobase){
+  public Personagem(String nome, int hp, int mana, int forca, int inte, int defesa, int danobase, int pocaoDeVida){
     this.nome = nome;
     this.hp = hp;
     this.mana = mana;
@@ -21,6 +22,7 @@ public abstract class Personagem{
     this.inte = inte;
     this.defesa = defesa;
     this.danoBase = danobase;
+    this.pocaoDeVida = pocaoDeVida;
   }
 
   public int atacar(Personagem alvo){
@@ -95,9 +97,19 @@ public abstract class Personagem{
     return mana;
   }
 
+  public int getPocaoDeVida(){
+    return pocaoDeVida;
+  }
+
   public void curar(int valor){
+    if(this.pocaoDeVida <= 0){
+      System.out.println("Recuperou nada! turno desperdicado");
+      return;
+    } 
     this.hp += valor;
-    System.out.println(nome + " recuperou " + valor + " de HP");
+    this.pocaoDeVida -= 1;
+    System.out.println(nome + " recuperou " + valor + " de HP. Poções restantes: " + pocaoDeVida);
+    
   }
 
 }
