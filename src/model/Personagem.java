@@ -95,6 +95,11 @@ public abstract class Personagem{
     return mana;
   }
 
+  public void curar(int valor){
+    this.hp += valor;
+    System.out.println(nome + " recuperou " + valor + " de HP");
+  }
+
 }
 
 
